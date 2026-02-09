@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Deep Blue ya uaminifu na mamlaka */
+  --color-deep-blue: #0a192f;
+  /* Neo Mint ya ubunifu na action */
+  --color-neo-mint: #2af598;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: var(--font-jakarta);
+    background-color: #ffffff;
+    color: #1e293b;
+  }
+}
